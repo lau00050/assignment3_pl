@@ -4,12 +4,15 @@ body  {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 24px;
-  margin: 0;
+  /* helps centre content */
+  display: table;
+  margin: 0 auto;
+  width: 70%;
 }
 
 h1  {
   margin: 0% 0% 0% 5%;
-  color: #FFF;
+  color: #fff;
 }
 
 h2  {
@@ -25,8 +28,43 @@ h3  {
   border-bottom: 1px solid #606161;
 }
 
-h4  {
+h5  {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #f9e42e;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.about:hover {
+  text-decoration: underline;
+}
+
+h3 a {
+  color: #033048;
+}
+
+h3 a:hover  {
+  color: #033048;
+  text-decoration: underline;
+}
+
+h4 a  {
   font-weight: 800;
+  color: #033048;
+}
+
+h4 a:hover {
+  color: #033048;
+  text-decoration: underline;
 }
 
 /* Background Header */
@@ -34,6 +72,9 @@ header  {
   background-color: #033048;
   padding: 1%;
   margin-bottom: 75px;
+  /* helps centre content */
+  position: relative;
+  width: 100%;
 }
 
 /* Nav */
@@ -44,10 +85,8 @@ nav {
 }
 
 nav li  {
-  font-weight: 600;
   display: inline-block;
   margin: 0px 10px 0px 5px;
-  color: #f9e42e;
 }
 
 /* Main & Aside */
@@ -96,7 +135,7 @@ aside p {
   margin-bottom: 0;
 }
 
-/* Sign Up — CTA*/
+/* Button */
 button  {
     margin-top: 25px;
     background-color: rgb(48, 70, 86);
@@ -114,6 +153,10 @@ button  {
   background-color: rgb(248, 227, 47);
   height: 100px;
   text-align: center;
+}
+
+button:hover {
+  background-color: #606161;
 }
 
 /* Footer */
@@ -137,6 +180,12 @@ footer  {
 #social-media {
   margin: 50px 0px 50px 0px;
   background-color: inherit;
+}
+
+.social-media {
+  padding: 0px 25px;
+} {
+
 }
 
 img {
