@@ -1,31 +1,10 @@
-/* Hey Will!
-   Is it possible to centre all of my body content?
-
-   I tried using the following code, however, this
-   also contained the background colour blocks inside
-   the width:
-
-      "display: table;
-      margin: 0 auto;
-      width: 70%;"
-
-  All the code commented out is my attempt at centering
-  the content.
-
-   Cheers!
-
-   Phil
-*/
-
 /* Basic Styles */
 body  {
   color: #033048;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 24px;
-  margin: 0/* auto */;
-  /* display: table;
-  width: 70%; */
+  margin: 0;
 }
 
 h1  {
@@ -52,8 +31,6 @@ h4  {
 
 /* Background Header */
 header  {
-  /* position: relative;
-  /* width: 100% */
   background-color: #033048;
   padding: 1%;
   margin-bottom: 75px;
@@ -113,6 +90,10 @@ ul, aside h4  {
   list-style-type: none;
   padding: 0;
   margin: 0px 0px 50px 0px;
+}
+
+aside p {
+  margin-bottom: 0;
 }
 
 /* Sign Up — CTA*/
