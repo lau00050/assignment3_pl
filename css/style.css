@@ -1,0 +1,163 @@
+/* Hey Will!
+   Is it possible to centre all of my body content?
+
+   I tried using the following code, however, this
+   also contained the background colour blocks inside
+   the width:
+
+      "display: table;
+      margin: 0 auto;
+      width: 70%;"
+
+  All the code commented out is my attempt at centering
+  the content.
+
+   Cheers!
+
+   Phil
+*/
+
+/* Basic Styles */
+body  {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0/* auto */;
+  /* display: table;
+  width: 70%; */
+}
+
+h1  {
+  margin: 0% 0% 0% 5%;
+  color: #FFF;
+}
+
+h2  {
+  font-weight: 600;
+}
+
+h3  {
+  font-weight: 600;
+  color: #033048;
+  text-align: right;
+  margin: 35px 0px 35px 0px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #606161;
+}
+
+h4  {
+  font-weight: 800;
+}
+
+/* Background Header */
+header  {
+  /* position: relative;
+  /* width: 100% */
+  background-color: #033048;
+  padding: 1%;
+  margin-bottom: 75px;
+}
+
+/* Nav */
+nav {
+  margin-left: 40%;
+  position: absolute;
+  top: 35px;
+}
+
+nav li  {
+  font-weight: 600;
+  display: inline-block;
+  margin: 0px 10px 0px 5px;
+  color: #f9e42e;
+}
+
+/* Main & Aside */
+main, aside {
+  display: inline-block;
+  vertical-align: top;
+  }
+
+/* Main*/
+main  {
+  padding: 0px 20px 100px 20px;
+  width: 700px;
+  margin-left: 5%;
+}
+
+main p {
+  color: #606161;
+}
+
+/* Main — Drop Caps */
+main p::first-letter {
+  float: left;
+    font-size: 300%;
+    font-weight: 600;
+    margin: 0px 5px 0px 0px;
+}
+
+/* Aside */
+aside {
+  padding: 0px 10px 0px 10px;
+  width: 250px;
+}
+
+aside h2 {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+ul, aside h4  {
+  list-style-type: none;
+  padding: 0;
+  margin: 0px 0px 50px 0px;
+}
+
+/* Sign Up — CTA*/
+button  {
+    margin-top: 25px;
+    background-color: rgb(48, 70, 86);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    width: 250px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#button-background {
+  background-color: rgb(248, 227, 47);
+  height: 100px;
+  text-align: center;
+}
+
+/* Footer */
+footer  {
+  color: white;
+  font-size: 15px;
+  background-color: rgb(60, 61, 62);
+  padding: 25px;
+  text-align: center;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 48px;
+  color: rgb(248, 227, 47);
+  text-align: center;
+  font-weight: 900;
+  margin: 50px;
+}
+
+#social-media {
+  margin: 50px 0px 50px 0px;
+  background-color: inherit;
+}
+
+img {
+  padding-right: 30px;
+}
